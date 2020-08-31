@@ -11,8 +11,7 @@ int main()
 	if(jjj>10)
 	{
 		printf("\t系统崩溃.........\n");         //防止循环过多
-		sleep(1);
-		
+		sleep(1);		
 		return 0;
 	}
 
