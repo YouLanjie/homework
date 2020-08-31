@@ -10,8 +10,9 @@ int main()
 
 	if(jjj>10)
 	{
-		printf("\t系统崩溃.........\n");
+		printf("\t系统崩溃.........\n");         //防止循环过多
 		sleep(1);
+		
 		return 0;
 	}
 
@@ -55,7 +56,7 @@ int main()
 
 		printf("\t\t修复系统中...\n");
 
-		strcpy(a,b);
+		strcpy(a,b);                           //清除内存中的内容
 
 		sleep(1);
 
