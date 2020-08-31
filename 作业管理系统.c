@@ -12,6 +12,7 @@ int main()
 	{
 		printf("\t系统崩溃.........\n");         //防止循环过多
 		sleep(1);
+		system("clear");
 		return 0;
 	}
 
