@@ -1,10 +1,4 @@
-#include <stdio.h>                                      //标库
-#include <stdlib.h>                                     //system();srand();rand();
-#include <string.h>                                     //strcap();strcy();strcpy();
-#include <unistd.h>                                     //sleep();
-#include <time.h>                                       //time();
-
-#include "src/head.h"
+#include "src/head.h"                                   //引用头文件
 
 int main()
 {
